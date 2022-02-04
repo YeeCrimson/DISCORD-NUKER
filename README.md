@@ -20,7 +20,7 @@ ____________________________________________________________
 pkg install python git
 ____________________________________________________________
 
-git clone https://github.com/YeeCrimson/DISCORD-NUKER/blob/main/README.md
+https://github.com/YeeCrimson/DISCORD-NUKER
 ____________________________________________________________
 
 cd DISCORD-NUKER
