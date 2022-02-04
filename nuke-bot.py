@@ -17,17 +17,11 @@ def _input(text):print(text, end='');return input()
 
 baner = f'''
 baner = f'''
-    ____                  _          
+    ____ SUBSCRIBE TO PRURIOE HEHEHE              
 
-   / __ \_______  _______(_)___  ___ 
+  
 
-  / /_/ / ___/ / / / ___/ / __ \/ _ \
 
- / ____/ /  / /_/ / /  / / /_/ /  __/
-
-/_/   /_/   \__,_/_/  /_/\____/\___/ 
-
-                                     
 {y}Made by: {g}https://github.com/YeeCrimson/DISCORD-NUKER'''
 
 
