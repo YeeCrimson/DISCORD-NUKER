@@ -14,9 +14,9 @@ apt update && apt upgrade
 
 pkg install python git
 
-git clone https://github.com/YeeCrimson/DISCORD-NUKER/edit/main/README.md
+git clone https://github.com/YeeCrimson/DISCORD-NUKER/blob/main/README.md
 
-cd 
+cd DISCORD-NUKER
 
 python -m pip install -r requirements.txt
 
